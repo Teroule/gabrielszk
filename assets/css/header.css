@@ -1,0 +1,41 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px lightgray solid;
+    padding: 0.25em 3em;
+    background-color: white;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70px;
+}
+
+.nav-title {
+    padding: 1em;
+}
+
+.nav-title-title {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30em;
+    list-style: none;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
